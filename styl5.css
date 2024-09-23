@@ -1,0 +1,54 @@
+header {
+    background: #009999;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+
+#informacyjny1,#informacyjny2,#informacyjny3,#informacyjny4 {
+    font-family: 'Arial';
+    background: #009999;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+
+#lewy {
+    clear: both;
+}
+
+#lewy,#prawy {
+    background: #669999;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+
+#srodkowy {
+    background: #99CCCC;
+    width: 40%;
+    height: 600px;
+    text-align: center;
+    float: left;
+}
+
+footer {
+    background: #009999;
+    color: white;
+    text-align: right;
+    clear: both;
+}
+
+table,td {
+    border: 1px solid green;
+    text-align: center;
+}
+
+button {
+    border: none;
+    margin: 10px;
+    background: green;
+    color: white;
+}
